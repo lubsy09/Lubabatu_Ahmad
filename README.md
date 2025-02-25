@@ -1,5 +1,4 @@
-# Lubabatu_Ahmad
-📌 Portfolio 
+# My Portfolio
 
 Welcome to my personal portfolio! This repository showcases my journey as a software developer, highlighting my projects, skills, and experience.
 
@@ -11,11 +10,10 @@ This portfolio is built using HTML, CSS, JavaScript, NodeJs, MongoDB and React d
 ✅ Contact information for collaboration
 
 🛠 Technologies Used
-	•	HTML5, CSS and JavaScript
-	•	NodeJs and MongoDB
-	•	React 
-	•	Git & GitHub
-   
+• HTML5, CSS and JavaScript
+• NodeJs and MongoDB
+• React
+• Git & GitHub
 
 📂 Projects
 
