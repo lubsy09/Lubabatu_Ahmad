@@ -1,0 +1,153 @@
+/* Reset some default browser styles */
+body, h1, h3, ul, li, a, button {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+}
+
+body {
+  background-color: #f8f9fa;
+  color: #333;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Profile Image */
+img {
+  max-width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin: 20px auto;
+  display: block;
+}
+
+/* Main Heading */
+h1 {
+  font-size: 28px;
+  margin-top: 10px;
+  color: #007bff;
+}
+
+h3 {
+  font-size: 20px;
+  margin-top: 10px;
+  color: #333;
+
+}
+
+/* About Section */
+div {
+  margin-top: 20px;
+  padding: 20px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+}
+
+/* Contact Buttons */
+.contacts {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 10px;
+}
+
+.linkedIn button{
+  background: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.twitter button{
+  background: #599adf;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.email button{
+  background: rgb(226, 59, 59);
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+
+/* Technology Icons */
+.tech-tools {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 15px;
+}
+
+.tech-tools img {
+  width: 60px;
+  height: auto;
+  transition: transform 0.3s;
+}
+
+.tech-tools img:hover {
+  transform: scale(1.1);
+}
+
+/* Project Links */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  margin: 10px 0;
+}
+
+ul li a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #007bff;
+  transition: color 0.3s;
+}
+
+ul li a:hover {
+  color: #0056b3;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+  div {
+    padding: 15px;
+  }
+
+  .contacts {
+    flex-direction: column;
+  }
+
+  .contacts a button {
+    width: 100%;
+  }
+
+  .tech-tools img {
+    width: 50px;
+  }
+}
